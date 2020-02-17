@@ -1,5 +1,3 @@
-# ejspassport-mashup
-
 Create a repo called ejspassport-mashup. Please submit the repo here.
 
 -create a folder called ejspassport-mashup
@@ -26,5 +24,11 @@ Create a repo called ejspassport-mashup. Please submit the repo here.
 ---movie header should say Movies Now Playing
 
 ****movie and random footer should have copyright symbol and programmer name
+****STYLE RANDOM AND MOVIES WITH CSS AS REFERRED IN THE VIDEO OR HOWEVER YOU THINK WILL LOOK BETTER.
+
+APIs:
+randomuser.me - log 20 random users in ALPHABETICAL order giving image and full name.
+tmdb.org - show the most popular movies of 2019 with posters and synopsis
 
 Two videos are attached below to show what is wanted for this homework. Please download then watch
+ALSO MAKE A CHECKLIST FOR YOURSELF TO MAKE SURE YOU HAVE FINISHED DOING EVERYTHING REQUESTED!
