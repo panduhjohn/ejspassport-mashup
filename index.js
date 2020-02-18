@@ -21,6 +21,7 @@ app.get('/movies', (req, res) => {
     const key = process.env.MOVIE_API;
     const url = `https://api.themoviedb.org/3/movie/popular?api_key=${key}&language=en-US&page=1`;
     const img = 'https://image.tmdb.org/t/p/w500';
+
     fetch(url + key)
         .then(res => res.json())
         .then(data => {

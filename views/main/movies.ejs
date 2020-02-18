@@ -6,12 +6,10 @@
     </head>
     <body>
         <header>2019 Popular movies</header>
-       
+
         <% data.results.forEach(({ title, overview, poster_path }) => {%>
         <div class="movieContainer">
-            <div>
-                <img class="movies" src=<%=`${img}${poster_path}`%>>
-            </div>
+            <img class="movies" src=<%=`${img}${poster_path}`%>>
             <div class="movieInfo">
                 <h5><%= `${title}` %></h5>
                 <p class="movieText"><%= `${overview}` %></p>
