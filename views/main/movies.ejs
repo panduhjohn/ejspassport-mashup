@@ -5,8 +5,7 @@
         <title>Popular Movies</title>
     </head>
     <body>
-        <header>2019 Popular movies</header>
-
+        <header>Movies Now Playing</header>
         <% data.results.forEach(({ title, overview, poster_path }) => {%>
         <div class="movieContainer">
             <img class="movies" src=<%=`${img}${poster_path}`%>>
